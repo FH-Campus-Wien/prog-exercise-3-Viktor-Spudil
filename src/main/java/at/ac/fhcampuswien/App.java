@@ -14,8 +14,6 @@ public class App {
         // etc.
         System.out.println("Mein Speicher Test");
 
-        oneMonthCalendar(31,6);
-
         long[] test = lcg(12345);
         for (int i = 0; i < 10; i++) {
             System.out.println(test[i]);
